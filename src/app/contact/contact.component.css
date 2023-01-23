@@ -1,0 +1,41 @@
+#contatti {
+    background: linear-gradient(rgba(119, 151, 31, 0.26), rgba(0, 0, 0, .6));
+    background-image: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2147490846/images/oldpa16VSBegooJvBXoS_file.jpg");
+    letter-spacing: 0px;
+}
+
+#contatti a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 570px) {
+    #contatti {
+        width: 100%;
+        margin-left: 1px;
+        padding-bottom: 600px;
+    }
+    #contatti .maps iframe {
+        margin-left: 0px;
+        width: 100%;
+        height: 450px;
+    }
+}
+
+@media (min-width: 570px) {
+    #contatti {
+        width: 100%;
+        margin-left: 1px;
+        padding-bottom: 60px;
+    }
+    #contatti .maps iframe {
+        margin-top: 50px;
+        width: 100%;
+        height: 450px;
+    }
+}
+
+#author a {
+    color: #fff;
+    text-decoration: none;
+}
